@@ -38,6 +38,6 @@ Navbar.propTypes = {
 };
 
 // default props
-Navbar.defaultProps = {
-  link: 'T&C'
-};
+// Navbar.defaultProps = {
+//   link: 'T&C'
+// };
