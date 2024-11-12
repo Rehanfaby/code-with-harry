@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 
-export default function TextForm() {
+export default function TextForm(props) {
 
     const [text, setTaxt] = useState('Enter your Text Here');
 
     const changeToLower = () => {
         setTaxt(text.toLowerCase());
+        props.showAlert('Text has been converted into Lower Case', 'success');
     }
 
     const typeInTextArea = (event) => {
